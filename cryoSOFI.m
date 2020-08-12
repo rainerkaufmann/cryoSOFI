@@ -23,7 +23,7 @@
 %   deconv: deconvolved
 %
 %
-% Copyright 2016-2019 by Felipe Moser & Rainer Kaufmann
+% Copyright 2016-20120 by Felipe Moser & Rainer Kaufmann
 % All rights reserved.
 %
 %
