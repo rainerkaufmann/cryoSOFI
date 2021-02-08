@@ -1,6 +1,7 @@
 ## cryo-SOFI
-<h3>Swapped mean and absolute value calculation bug in version 1.0</h3>
-<br><br>
+<br>
+<h3>IMPORTANT INFORMATION FOR VERSION 1.0: Swapped mean and absolute value calculation bug in version 1.0</h3>
+<br>
 The cryo-SOFI reconstruction code version 1.0 contained a bug that can lead to images with slightly reduced resolution compared to the correct implementation.
 <br><br>
 In the cryo-SOFI code version 1.0, the order of calculating mean and absolute value for the correlation factors had accidentally been swapped. This favours noise contribution (e.g. shot-noise from non-fluctuating signals or background) in the resulting SOFI reconstructions. The following simulation with 9 molecules on a pattern with 320 nm spacing and a 415 nm wide (FWHM) PSF shows, that this can lead to a loss in achievable resolution compared to the reconstruction with code that uses the correct order of calculating mean and absolute value (cryoSOFI v1.1).
