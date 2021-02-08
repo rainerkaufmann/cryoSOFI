@@ -11,7 +11,7 @@ In the cryo-SOFI code version 1.0, the order of calculating mean and absolute va
 <br><br>
 While the simulation indicates that the cryo-SOFI code version 1.0 can impair the achievable resolution, we did not observe this for our experimental datasets. The example below shows the results of the different cryo-SOFI software versions for Dendra2-Lifeact-labelled actin in a vitrified cell (same dataset as in Fig. 1 of the PNAS article https://doi.org/10.1073/pnas.1810690116).
 <br><br>
-<img src="https://github.com/rainerkaufmann/cryoSOFI/blob/master/actin_comparison.png" width="800">
+<img src="https://github.com/rainerkaufmann/cryoSOFI/blob/master/actin_comparison.jpg" width="800">
 <i>Cryo-SOFI of Dendra2-Lifeact-labelled actin in a vitrified XC cell (rat Rous sarcoma cell line).</i>
 <br><br>
 The cryo-SOFI reconstruction code version 1.5 contains several additional improvements such as automatic calculation of pixel combinations, calculation of every tau combination between 0 and 4, and GPU based calculations to achieve much faster performance.
